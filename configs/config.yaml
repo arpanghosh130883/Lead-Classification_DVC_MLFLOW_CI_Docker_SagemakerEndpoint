@@ -1,0 +1,35 @@
+# It contains all the configs required in the project
+
+artifacts:
+  artifacts_directory: artifacts
+
+  preprocessed_data_dir: preprocessed_data
+  preprocessed_data_file: preprocessed_data.csv
+
+  input_features_dir: input_features
+  input_features_file: input_features.csv
+
+  train_val_test_data_directory: train_val_test_data
+  train_data_file: train.csv
+  val_data_file: val.csv
+  test_data_file: test.csv
+
+  model_directory: model
+  model_name: xgb_classifier.pkl
+
+source_data:
+  data_directory: data 
+  data_file: raw_data.csv
+  new_data_file: x.csv
+
+
+model:
+  model_dir: model
+  model_file: xgbmodel.pickle
+
+scaler:
+  scaler_dir: scaler
+  scaler_file: scaler.pickle
+
+
+

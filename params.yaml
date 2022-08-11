@@ -1,0 +1,2122 @@
+# This contains params to be used by the stages to train or predict
+
+ModelTraining:
+  test_split: 0.3
+  val_split: 0.5
+  seed: 123
+
+
+
+BestModelParameters:
+  subsample:  1.0
+  silent: False
+  n_estimators: 100
+  max_depth: 6
+  learning_rate: 0.001
+  gamma: 1.0
+  colsample_bytree: 0.7
+  colsample_bylevel: 0.4
+  threshold: 0.5051
+
+
+Numeric:
+  SalesTurnoverGBP: 79972
+  ProfitOrLossAmount: 698843
+  EmpCount: 119
+  FamilyTreeHierarchyLevel: 1
+  GlobalUltimateFamilyTreeLinkageCount: 2
+  TotalAssetsAmount: 630058
+  TotalLiabilitiesAmount: 448489
+  TotalCurrentAssetsAmount: 513382
+  TotalCurrentLiabilitiesAmount: 335187
+  NetWorth: 151260
+
+OrgMap:
+  Currencies Direct: 40498
+  TorFX: 37238
+
+OwnershipType:
+  Privately owned: 77321 
+  Publicly Traded Company: 415
+
+
+OperatingStatus:
+  Active: 67173
+  Out of business: 10563
+
+
+FamilyTreeMemberRoleText:
+  Unknown: 48255 
+  Headquarters: 20238
+  Subsidiary: 9066 
+  Branch: 177
+
+
+
+PrimaryTownEncoding:
+  LONDON: 13438
+  MANCHESTER: 1701
+  BIRMINGHAM: 1456
+  BRISTOL: 1066
+  GLASGOW: 1018
+  LEICESTER: 897
+  LEEDS: 836
+  NOTTINGHAM: 661
+  SHEFFIELD: 602
+  LIVERPOOL: 549
+  EDINBURGH: 536
+  READING: 487
+  CARDIFF: 452
+  BELFAST: 421
+  SOUTHAMPTON: 413
+  ABERDEEN: 401
+  COVENTRY: 393
+  CAMBRIDGE: 393
+  MILTONKEYNES: 386
+  NORWICH: 363
+  STOCKPORT: 361
+  BRADFORD: 360
+  NORTHAMPTON: 339
+  PRESTON: 333
+  BOLTON: 324
+  HARROW: 320
+  NEWCASTLE-UPON-TYNE: 298
+  CHELTENHAM: 296
+  STOKE-ON-TRENT: 290
+  DERBY: 289
+  COLCHESTER: 289
+  WARRINGTON: 281
+  YORK: 275
+  PETERBOROUGH: 266
+  BRIGHTON: 264
+  WOLVERHAMPTON: 264
+  ILFORD: 262
+  CROYDON: 260
+  SLOUGH: 250
+  EXETER: 244
+  WATFORD: 241
+  SWINDON: 241
+  PLYMOUTH: 238
+  LUTON: 237
+  BEDFORD: 234
+  HUDDERSFIELD: 233
+  POOLE: 233
+  DONCASTER: 233
+  HIGHWYCOMBE: 229
+  HULL: 228
+  OLDHAM: 223
+  OXFORD: 222
+  WALSALL: 220
+  BLACKBURN: 219
+  BATH: 205
+  STALBANS: 201
+  GLOUCESTER: 201
+  NEWPORT: 196
+  IPSWICH: 195
+  WEMBLEY: 191
+  BASINGSTOKE: 190
+  CHELMSFORD: 188
+  BOURNEMOUTH: 186
+  TELFORD: 182
+  MAIDENHEAD: 181
+  WORCESTER: 177
+  ALTRINCHAM: 175
+  CHESTERFIELD: 174
+  SWANSEA: 167
+  LINCOLN: 165
+  WIGAN: 163
+  ASHFORD: 161
+  WOKING: 161
+  NEWRY: 161
+  CHESTER: 161
+  ROTHERHAM: 158
+  HOUNSLOW: 155
+  ROCHDALE: 154
+  JERSEY: 151
+  UXBRIDGE: 150
+  HEMELHEMPSTEAD: 149
+  REDDITCH: 149
+  ROMFORD: 149
+  BURYSTEDMUNDS: 148
+  SOLIHULL: 147
+  WAKEFIELD: 145
+  SOUTHALL: 144
+  MAIDSTONE: 144
+  ENFIELD: 143
+  BASILDON: 142
+  SALFORD: 142
+  LOUGHBOROUGH: 141
+  CHICHESTER: 138
+  SUTTONCOLDFIELD: 138
+  AYLESBURY: 138
+  WITNEY: 136
+  PORTSMOUTH: 136
+  TRURO: 134
+  FAREHAM: 133
+  RICHMOND: 133
+  DUNDEE: 132
+  CRAIGAVON: 132
+  HOVE: 131
+  SALISBURY: 131
+  HARROGATE: 130
+  HAYES: 129
+  HEREFORD: 128
+  WREXHAM: 127
+  BARNSLEY: 125
+  GUILDFORD: 125
+  BURY: 125
+  CRAWLEY: 124
+  TUNBRIDGEWELLS: 123
+  BURTON-ON-TRENT: 123
+  NEWBURY: 123
+  HALIFAX: 122
+  EASTLEIGH: 121
+  SHREWSBURY: 120
+  TONBRIDGE: 119
+  SEVENOAKS: 119
+  TAUNTON: 118
+  EDGWARE: 118
+  PETWORTH: 116
+  WELLINGBOROUGH: 115
+  MIDDLESBROUGH: 115
+  HORSHAM: 114
+  BOREHAMWOOD: 113
+  DARTFORD: 113
+  WIRRAL: 113
+  KETTERING: 112
+  BURNLEY: 112
+  MACCLESFIELD: 112
+  HUNTINGDON: 112
+  HARLOW: 109
+  WOKINGHAM: 109
+  WINCHESTER: 109
+  STOCKTON-ON-TEES: 109
+  BLACKPOOL: 108
+  STAFFORD: 107
+  GRIMSBY: 106
+  WARWICK: 106
+  CHORLEY: 106
+  WORTHING: 103
+  ISLEOFMAN: 103
+  STHELENS: 102
+  STEVENAGE: 102
+  GATESHEAD: 102
+  BARKING: 102
+  NEWCASTLE: 101
+  BARNET: 101
+  LISBURN: 100
+  "KINGSLYNN": 99
+  EPSOM: 99
+  GREENFORD: 99
+  CARLISLE: 98
+  FARNHAM: 96
+  SPALDING: 96
+  HITCHIN: 94
+  RUISLIP: 94
+  BRIDGEND: 93
+  NEWARK: 93
+  KNUTSFORD: 93
+  CONGLETON: 93
+  NEWTONABBOT: 93
+  KEIGHLEY: 92
+  MANSFIELD: 91
+  WEYBRIDGE: 91
+  CHEADLE: 91
+  LEAMINGTONSPA: 90
+  SUTTON: 90
+  ABINGDON: 89
+  PERTH: 89
+  BICESTER: 89
+  BRENTWOOD: 89
+  TAMWORTH: 88
+  CREWE: 88
+  BANBURY: 88
+  STANMORE: 87
+  RUGBY: 87
+  EASTBOURNE: 86
+  SALE: 86
+  SURBITON: 86
+  DUNGANNON: 86
+  SOUTHEND-ON-SEA: 86
+  BOOTLE: 85
+  WIMBORNE: 85
+  ROSSENDALE: 85
+  HAYWARDSHEATH: 85
+  BRACKNELL: 84
+  CIRENCESTER: 84
+  LONDONDERRY: 84
+  GUERNSEY: 83
+  PENZANCE: 83
+  KINGSTON-UPON-THAMES: 83
+  FELTHAM: 83
+  ROCHESTER: 83
+  SOUTHPORT: 82
+  KIDDERMINSTER: 81
+  BROMSGROVE: 81
+  HALESOWEN: 81
+  ANDOVER: 81
+  REDRUTH: 80
+  LEATHERHEAD: 80
+  CANTERBURY: 80
+  CAMBERLEY: 80
+  STRATFORD-UPON-AVON: 80
+  FARNBOROUGH: 79
+  DEWSBURY: 78
+  NORTHWICH: 78
+  RUNCORN: 78
+  TORQUAY: 78
+  SITTINGBOURNE: 77
+  LOUGHTON: 77
+  WESTBROMWICH: 77
+  DUDLEY: 77
+  ELY: 76
+  TEWKESBURY: 76
+  SMETHWICK: 76
+  NUNEATON: 76
+  BROMLEY: 75
+  STROUD: 75
+  HATFIELD: 75
+  STIVES: 74
+  WILMSLOW: 74
+  ORPINGTON: 74
+  WATERLOOVILLE: 73
+  WEDNESBURY: 73
+  OMAGH: 73
+  GREATYARMOUTH: 73
+  LEIGHTONBUZZARD: 72
+  BRIDGWATER: 72
+  ACCRINGTON: 72
+  LICHFIELD: 72
+  GRAVESEND: 71
+  STIRLING: 71
+  WELWYNGARDENCITY: 71
+  DUNSTABLE: 70
+  MALVERN: 70
+  WESTON-SUPER-MARE: 70
+  SCUNTHORPE: 70
+  HINCKLEY: 69
+  DARLINGTON: 69
+  POTTERSBAR: 69
+  CORBY: 68
+  YEOVIL: 68
+  GRAYS: 68
+  GRANTHAM: 68
+  REDHILL: 68
+  COALVILLE: 67
+  PINNER: 67
+  DAVENTRY: 67
+  ALFRETON: 67
+  EVESHAM: 66
+  HERTFORD: 66
+  ASHTON-UNDER-LYNE: 66
+  BIRKENHEAD: 66
+  LITTLEHAMPTON: 66
+  STNEOTS: 66
+  BISHOPSSTORTFORD: 66
+  CANNOCK: 66
+  DAGENHAM: 66
+  BALLYMENA: 66
+  STOURBRIDGE: 65
+  TWICKENHAM: 65
+  LEIGH-ON-SEA: 65
+  ALTON: 65
+  BATLEY: 65
+  MALDON: 64
+  ENNISKILLEN: 64
+  WICKFORD: 63
+  RICKMANSWORTH: 63
+  CHRISTCHURCH: 63
+  ISLEOFLEWIS: 63
+  LIVINGSTON: 62
+  EGHAM: 62
+  OLDBURY: 62
+  SUNDERLAND: 62
+  ORMSKIRK: 62
+  BRAINTREE: 61
+  MARLOW: 60
+  ARMAGH: 60
+  HODDESDON: 60
+  ROYSTON: 59
+  CHIPPENHAM: 59
+  BARNSTAPLE: 59
+  WOODFORDGREEN: 59
+  NEWTOWNABBEY: 58
+  NORTHWOOD: 58
+  HENLEY-ON-THAMES: 58
+  THETFORD: 58
+  KINGSWINFORD: 58
+  PAISLEY: 58
+  ROMSEY: 58
+  HAMILTON: 58
+  GOSPORT: 57
+  DORCHESTER: 57
+  WINDSOR: 56
+  LETCHWORTH: 56
+  LEWES: 56
+  WALTHAMCROSS: 55
+  BRENTFORD: 55
+  CHATHAM: 55
+  HARPENDEN: 55
+  SKIPTON: 55
+  COLERAINE: 55
+  STAUSTELL: 54
+  EASTGRINSTEAD: 54
+  MARKETHARBOROUGH: 54
+  SKELMERSDALE: 54
+  BILLERICAY: 54
+  NELSON: 54
+  DUNFERMLINE: 53
+  ELLESMEREPORT: 53
+  GILLINGHAM: 53
+  NEWMARKET: 53
+  BRIGHOUSE: 52
+  SUDBURY: 52
+  REIGATE: 52
+  INVERNESS: 52
+  SOUTHCROYDON: 52
+  KILMARNOCK: 52
+  TROWBRIDGE: 52
+  HELSTON: 51
+  BRIERLEYHILL: 51
+  HYDE: 51
+  BOSTON: 51
+  BERKHAMSTED: 51
+  TIVERTON: 51
+  SIDCUP: 51
+  DURHAM: 50
+  LUTTERWORTH: 50
+  CARNFORTH: 50
+  BANGOR: 50
+  WOODBRIDGE: 50
+  SHIPLEY: 50
+  FALMOUTH: 49
+  ESHER: 49
+  UCKFIELD: 49
+  HARTLEPOOL: 49
+  WARE: 49
+  SAFFRONWALDEN: 48
+  BEACONSFIELD: 48
+  RAINHAM: 48
+  AYR: 48
+  WETHERBY: 48
+  GODALMING: 48
+  HORLEY: 48
+  SWADLINCOTE: 48
+  SCARBOROUGH: 47
+  BURGESSHILL: 47
+  TEDDINGTON: 47
+  WESTDRAYTON: 47
+  LYMINGTON: 47
+  MAGHERAFELT: 46
+  NORTHSHIELDS: 46
+  CHESHAM: 46
+  MELTONMOWBRAY: 46
+  BODMIN: 46
+  BUCKINGHAM: 45
+  AYLESFORD: 45
+  WISBECH: 45
+  RINGWOOD: 45
+  DROITWICH: 45
+  CHESSINGTON: 45
+  GLENROTHES: 45
+  FOLKESTONE: 45
+  ISLEWORTH: 45
+  BECKENHAM: 45
+  DORKING: 45
+  HASSOCKS: 44
+  TIPTON: 44
+  PETERHEAD: 44
+  HORNCHURCH: 44
+  PONTEFRACT: 44
+  NEWMALDEN: 44
+  LANCASTER: 44
+  DEESIDE: 44
+  PETERSFIELD: 44
+  WASHINGTON: 44
+  WELLS: 44
+  LOWESTOFT: 44
+  LYTHAMSTANNES: 43
+  GERRARDSCROSS: 43
+  LISKEARD: 43
+  WESTMALLING: 43
+  HAVERHILL: 43
+  WINSFORD: 42
+  WIDNES: 42
+  ALDERSHOT: 42
+  ASCOT: 42
+  COOKSTOWN: 42
+  DOVER: 42
+  CWMBRAN: 42
+  NEWTONAYCLIFFE: 42
+  KENDAL: 41
+  HAVANT: 41
+  STONE: 41
+  INVERURIE: 41
+  OSWESTRY: 41
+  HONITON: 41
+  STAMFORD: 40
+  HUNGERFORD: 40
+  RETFORD: 40
+  SUTTON-IN-ASHFIELD: 40
+  BRIDGNORTH: 40
+  ANTRIM: 40
+  CRAMLINGTON: 40
+  FRASERBURGH: 40
+  WORKSOP: 40
+  CAERPHILLY: 40
+  WILLENHALL: 39
+  RAMSGATE: 39
+  RADSTOCK: 39
+  PENRYN: 39
+  GLOSSOP: 39
+  SUNBURY-ON-THAMES: 39
+  BENFLEET: 39
+  MOLD: 39
+  TOWCESTER: 39
+  MITCHAM: 39
+  DUNMOW: 39
+  RUSHDEN: 39
+  KENILWORTH: 39
+  KIRKCALDY: 39
+  OAKHAM: 39
+  BATHGATE: 39
+  HIGHPEAK: 39
+  WESTBYFLEET: 39
+  HOOK: 38
+  WALLINGFORD: 38
+  PORTTALBOT: 38
+  STONEHOUSE: 38
+  PERSHORE: 38
+  CLECKHEATON: 38
+  HAMPTON: 38
+  HEYWOOD: 38
+  GOOLE: 38
+  CLEVEDON: 38
+  WALTON-ON-THAMES: 38
+  SOUTHSEA: 37
+  BORDON: 37
+  FELIXSTOWE: 37
+  THIRSK: 37
+  THATCHAM: 37
+  NEWTOWNARDS: 37
+  CHERTSEY: 37
+  BOGNORREGIS: 37
+  DEVIZES: 36
+  SHOREHAM-BY-SEA: 36
+  MALMESBURY: 36
+  KINGTON: 36
+  IRVINE: 36
+  FROME: 36
+  CHIPPINGNORTON: 36
+  FORFAR: 36
+  NANTWICH: 36
+  AMERSHAM: 36
+  CLITHEROE: 36
+  CASTLEFORD: 36
+  WALTHAMABBEY: 36
+  BRIDLINGTON: 35
+  GAINSBOROUGH: 35
+  HAILSHAM: 35
+  WITHAM: 35
+  ELLAND: 35
+  ILKESTON: 35
+  MARLBOROUGH: 35
+  NEATH: 35
+  PENRITH: 35
+  PULBOROUGH: 35
+  RENFREW: 34
+  ILKLEY: 34
+  STOWMARKET: 34
+  FLEET: 34
+  ASHBOURNE: 34
+  MONTROSE: 34
+  ADDLESTONE: 34
+  MATLOCK: 34
+  PRESCOT: 34
+  NORTHALLERTON: 33
+  MORDEN: 33
+  LARNE: 33
+  NEWQUAY: 33
+  LEYLAND: 33
+  WEYMOUTH: 33
+  BILSTON: 33
+  LANARK: 33
+  WESTHILL: 33
+  LEIGH: 33
+  CRADLEYHEATH: 33
+  WARMINSTER: 32
+  CUPAR: 32
+  BUDE: 32
+  MELKSHAM: 32
+  WELLINGTON: 32
+  BLAIRGOWRIE: 32
+  BILLINGHAM: 32
+  WIGSTON: 32
+  PAIGNTON: 32
+  PORTH: 32
+  WALLSEND: 32
+  RAYLEIGH: 32
+  FALKIRK: 31
+  PUDSEY: 31
+  BEXLEY: 31
+  ATHERSTONE: 31
+  NEWPORTPAGNELL: 31
+  TOTNES: 31
+  STANSTED: 31
+  MOTHERWELL: 31
+  DARWEN: 31
+  FERNDOWN: 31
+  STAINES: 31
+  OSSETT: 30
+  FAVERSHAM: 30
+  ALCESTER: 30
+  HOLMFIRTH: 30
+  CLACTON-ON-SEA: 30
+  BEVERLEY: 30
+  PONTYPRIDD: 30
+  CATERHAM: 30
+  ERITH: 30
+  HESSLE: 30
+  CRANLEIGH: 30
+  BROUGH: 30
+  PONTYCLUN: 29
+  CONSETT: 29
+  MARGATE: 29
+  EPPING: 29
+  DIDCOT: 29
+  LLANELLI: 29
+  LEOMINSTER: 29
+  DISS: 29
+  LEEK: 29
+  LEDBURY: 28
+  BARRY: 28
+  STALYBRIDGE: 28
+  WALLINGTON: 28
+  HAVERFORDWEST: 28
+  WHITSTABLE: 28
+  DUKINFIELD: 28
+  BRACKLEY: 28
+  BOURNE: 27
+  TETBURY: 27
+  NORMANTON: 27
+  DUMFRIES: 27
+  TRING: 27
+  BUSHEY: 27
+  EDENBRIDGE: 27
+  CROWBOROUGH: 26
+  PETERLEE: 26
+  BIDEFORD: 26
+  HEXHAM: 26
+  MARKETRASEN: 26
+  SOUTHSHIELDS: 26
+  RIPON: 26
+  RUGELEY: 26
+  STLEONARDS-ON-SEA: 26
+  BISHOPAUCKLAND: 26
+  ROSS-ON-WYE: 26
+  MARKETDRAYTON: 26
+  CORSHAM: 26
+  SANDY: 26
+  SALTASH: 26
+  DEREHAM: 26
+  GRANGEMOUTH: 25
+  HERNEBAY: 25
+  TURRIFF: 25
+  NORTHOLT: 25
+  LAUNCESTON: 25
+  BLANDFORDFORUM: 25
+  HEATHFIELD: 25
+  BIGGLESWADE: 25
+  SHEPTONMALLET: 25
+  UPMINSTER: 25
+  COBHAM: 25
+  BALLYCLARE: 25
+  PRESTWICK: 24
+  CULLOMPTON: 24
+  IVYBRIDGE: 24
+  FLEETWOOD: 24
+  BELPER: 24
+  POLEGATE: 24
+  BERWICK-UPON-TWEED: 24
+  HAYLE: 24
+  WALLASEY: 24
+  SOUTHAM: 24
+  BUXTON: 24
+  SANDBACH: 24
+  POULTON-LE-FYLDE: 24
+  WANTAGE: 24
+  WESTCLIFF-ON-SEA: 24
+  THAME: 24
+  DRIFFIELD: 23
+  SLEAFORD: 23
+  CARRICKFERGUS: 23
+  LOUTH: 23
+  GALASHIELS: 23
+  TILBURY: 23
+  KNARESBOROUGH: 23
+  STRABANE: 23
+  MORETON-IN-MARSH: 23
+  BURNTWOOD: 23
+  MORECAMBE: 23
+  GLASTONBURY: 23
+  BANBRIDGE: 23
+  BECCLES: 23
+  PRINCESRISBOROUGH: 23
+  WESTERHAM: 23
+  WHITCHURCH: 23
+  NEWTON-LE-WILLOWS: 22
+  DOWNPATRICK: 22
+  HALSTEAD: 22
+  TADLEY: 22
+  BOURNEEND: 22
+  ASHBY-DE-LA-ZOUCH: 22
+  MIDDLEWICH: 22
+  LUDLOW: 22
+  WOTTON-UNDER-EDGE: 22
+  MORPETH: 22
+  CREDITON: 22
+  SAWBRIDGEWORTH: 22
+  DRONFIELD: 22
+  SWANLEY: 22
+  BRECON: 22
+  CRANBROOK: 22
+  HOLYWELL: 22
+  ASHINGTON: 22
+  NEWBRIDGE: 22
+  WHITLEYBAY: 21
+  SHERBORNE: 21
+  ABERGAVENNY: 21
+  STANLEY: 21
+  SELBY: 21
+  HASTINGS: 21
+  IVER: 21
+  OXTED: 21
+  MALTON: 21
+  BARROW-IN-FURNESS: 21
+  WELSHPOOL: 21
+  SHAFTESBURY: 21
+  PURLEY: 21
+  CANVEYISLAND: 21
+  NEWMILTON: 21
+  CLYDEBANK: 21
+  STAINES-UPON-THAMES: 21
+  MEXBOROUGH: 20
+  BILLINGSHURST: 20
+  RADLETT: 20
+  BEXHILL-ON-SEA: 20
+  CAMBORNE: 20
+  LANCING: 20
+  RHYL: 20
+  AMMANFORD: 20
+  MERTHYRTYDFIL: 20
+  GREENHITHE: 20
+  PEMBROKEDOCK: 20
+  KIDLINGTON: 20
+  WORCESTERPARK: 20
+  LYDNEY: 20
+  STCOLUMB: 20
+  PENARTH: 20
+  WYMONDHAM: 20
+  ARBROATH: 20
+  TAVISTOCK: 20
+  ALLOA: 19
+  ABERDARE: 19
+  HARWICH: 19
+  EMSWORTH: 19
+  WESTMOLESEY: 19
+  STOCKBRIDGE: 19
+  LOANHEAD: 19
+  ARUNDEL: 19
+  HEANOR: 19
+  KINGSLANGLEY: 19
+  CARSHALTON: 19
+  WESTBURY: 19
+  MARCH: 19
+  WADEBRIDGE: 19
+  SHETLAND: 19
+  LOCKERBIE: 19
+  RYDE: 19
+  BUNTINGFORD: 19
+  KESTON: 19
+  CARMARTHEN: 19
+  ALNWICK: 18
+  BALDOCK: 18
+  AIRDRIE: 18
+  UTTOXETER: 18
+  BINGLEY: 18
+  CALNE: 18
+  HOUGHTON-LE-SPRING: 18
+  MIRFIELD: 18
+  AXMINSTER: 18
+  HASLEMERE: 18
+  ROCHFORD: 18
+  NEWTOWN: 18
+  RIPLEY: 18
+  BELLSHILL: 18
+  FORDINGBRIDGE: 18
+  COULSDON: 18
+  BANFF: 18
+  COATBRIDGE: 18
+  OKEHAMPTON: 17
+  SANDWICH: 17
+  BATTLE: 17
+  INGATESTONE: 17
+  SHEERNESS: 17
+  ALDERLEYEDGE: 17
+  HIGHBRIDGE: 17
+  HENFIELD: 17
+  BRIGG: 17
+  PONTYPOOL: 17
+  HELENSBURGH: 17
+  HEBDENBRIDGE: 17
+  SKEGNESS: 17
+  PAR: 17
+  COLNE: 17
+  STURMINSTERNEWTON: 17
+  ULVERSTON: 16
+  LIVERSEDGE: 16
+  TREDEGAR: 16
+  EYE: 16
+  DINGWALL: 16
+  EXMOUTH: 16
+  DUNS: 16
+  FAKENHAM: 16
+  CROWTHORNE: 16
+  BLAYDON-ON-TYNE: 16
+  BEWDLEY: 16
+  BROADSTAIRS: 16
+  SHIPSTON-ON-STOUR: 16
+  BEDWORTH: 16
+  RYE: 16
+  WINDERMERE: 16
+  REDCAR: 16
+  CALDICOT: 16
+  BUCKHURSTHILL: 16
+  BALLYNAHINCH: 16
+  CHARD: 16
+  OLNEY: 16
+  ATTLEBOROUGH: 16
+  TARPORLEY: 15
+  CHEPSTOW: 15
+  STONEHAVEN: 15
+  WINCANTON: 15
+  CINDERFORD: 15
+  BROXBURN: 15
+  ALFORD: 15
+  SHEPPERTON: 15
+  BRANDON: 15
+  HECKMONDWIKE: 15
+  THORNTON-CLEVELEYS: 15
+  NESTON: 15
+  LIPHOOK: 15
+  LIMAVADY: 15
+  NEWTONSTEWART: 15
+  BRIDPORT: 15
+  SOUTHMOLTON: 15
+  LANGPORT: 15
+  SHEFFORD: 15
+  CARDIGAN: 15
+  FORESTROW: 15
+  THORNTONHEATH: 15
+  MUSSELBURGH: 15
+  KINGSBRIDGE: 15
+  MILFORDHAVEN: 15
+  MONMOUTH: 15
+  COWBRIDGE: 15
+  GREENOCK: 15
+  COWES: 15
+  TROON: 14
+  DURSLEY: 14
+  FLINT: 14
+  STEYNING: 14
+  JOHNSTONE: 14
+  OTLEY: 14
+  STOURPORT-ON-SEVERN: 14
+  KELSO: 14
+  SEAHAM: 14
+  WORKINGTON: 14
+  HOLSWORTHY: 14
+  CHISLEHURST: 14
+  MAGHERA: 14
+  SWANAGE: 14
+  IMMINGHAM: 14
+  MIDHURST: 14
+  HAWICK: 14
+  WELLING: 14
+  HARLESTON: 14
+  EBBWVALE: 14
+  BACUP: 14
+  ROWLEYREGIS: 14
+  MANNINGTREE: 14
+  THAMESDITTON: 14
+  BALLYMONEY: 14
+  VERWOOD: 14
+  LITTLEBOROUGH: 14
+  CARTERTON: 14
+  SANDOWN: 14
+  NEWHAVEN: 14
+  FARINGDON: 14
+  WICK: 13
+  HUNTLY: 13
+  ELLON: 13
+  DENBIGH: 13
+  BAGSHOT: 13
+  INVERKEITHING: 13
+  NORTHFERRIBY: 13
+  BLYTH: 13
+  BRECHIN: 13
+  BARNOLDSWICK: 13
+  COLEFORD: 13
+  DALKEITH: 13
+  BRAUNTON: 13
+  COLWYNBAY: 13
+  HOLYWOOD: 13
+  FORRES: 13
+  MOUNTAINASH: 13
+  CHIGWELL: 12
+  ST.ANDREWS: 12
+  TORRINGTON: 12
+  JARROW: 12
+  EASTMOLESEY: 12
+  BANSTEAD: 12
+  BIGGAR: 12
+  TORPOINT: 12
+  KESWICK: 12
+  PRENTON: 12
+  SPENNYMOOR: 12
+  TENTERDEN: 12
+  LARKHALL: 12
+  FILEY: 12
+  ST.ASAPH: 12
+  ILMINSTER: 12
+  BANCHORY: 12
+  CUMNOCK: 12
+  AXBRIDGE: 12
+  FRODSHAM: 12
+  ONGAR: 12
+  LEVEN: 12
+  SOWERBYBRIDGE: 12
+  BARNARDCASTLE: 12
+  BUCKIE: 12
+  HOLYHEAD: 12
+  NORTHWALSHAM: 12
+  PORTGLASGOW: 12
+  TADWORTH: 12
+  LEYBURN: 12
+  TADCASTER: 11
+  BELVEDERE: 11
+  CALLINGTON: 11
+  BRIXHAM: 11
+  PURFLEET: 11
+  PWLLHELI: 11
+  CARLUKE: 11
+  KINROSS: 11
+  CREWKERNE: 11
+  HILLSBOROUGH: 11
+  BLACKWOOD: 11
+  LISS: 11
+  BEXLEYHEATH: 11
+  SEATON: 11
+  SHIFNAL: 11
+  ELLESMERE: 11
+  BOLDONCOLLIERY: 11
+  COCKERMOUTH: 11
+  DOWNHAMMARKET: 11
+  BONNYBRIDGE: 11
+  WATLINGTON: 11
+  SOMERTON: 11
+  FORTWILLIAM: 11
+  WHITBY: 11
+  STREET: 11
+  ELGIN: 11
+  LARGS: 11
+  HORNCASTLE: 11
+  BROXBOURNE: 11
+  TENBURYWELLS: 11
+  CASTLEDOUGLAS: 11
+  WADHURST: 10
+  LOOE: 10
+  CRIEFF: 10
+  STRANRAER: 10
+  TODMORDEN: 10
+  STANDREWS: 10
+  HOCKLEY: 10
+  SOUTHWOLD: 10
+  MITCHELDEAN: 10
+  HADDINGTON: 10
+  LARBERT: 10
+  ALEXANDRIA: 10
+  PERRANPORTH: 10
+  HENGOED: 10
+  DEAL: 10
+  SANDHURST: 10
+  LEE-ON-THE-SOLENT: 10
+  GUISBOROUGH: 10
+  LLANDUDNO: 10
+  WAREHAM: 10
+  CHESTER-LE-STREET: 10
+  CHATTERIS: 10
+  ABERFELDY: 10
+  MINEHEAD: 9
+  WISHAW: 9
+  GIRVAN: 9
+  BROMYARD: 9
+  TEIGNMOUTH: 9
+  BURNHAM-ON-CROUCH: 9
+  USK: 9
+  CORWEN: 9
+  KEITH: 9
+  ABERYSTWYTH: 9
+  NEWENT: 9
+  CHALFONTSTGILES: 9
+  STANFORD-LE-HOPE: 9
+  OTTERYSTMARY: 9
+  PEEBLES: 9
+  THURSO: 9
+  CHEDDAR: 9
+  BONNYRIGG: 9
+  HOPEVALLEY: 9
+  PEMBROKE: 9
+  CAERNARFON: 9
+  BRIDGEOFWEIR: 9
+  ASHTEAD: 9
+  LAURENCEKIRK: 9
+  SELKIRK: 9
+  HAYLINGISLAND: 9
+  SALTBURN-BY-THE-SEA: 9
+  SHILDON: 9
+  STORNOWAY: 9
+  LYMM: 9
+  SIDMOUTH: 9
+  CHESTERLESTREET: 9
+  SOUTHPETHERTON: 8
+  KIRRIEMUIR: 8
+  WESTWICKHAM: 8
+  DARTMOUTH: 8
+  BEITH: 8
+  BRADFORD-ON-AVON: 8
+  HEBBURN: 8
+  PORTHCAWL: 8
+  BROADWAY: 8
+  ROBERTSBRIDGE: 8
+  PEWSEY: 8
+  ABERTILLERY: 8
+  GATWICK: 8
+  PRUDHOE: 8
+  GRANGE-OVER-SANDS: 8
+  TAIN: 8
+  FIVEMILETOWN: 8
+  SOUTHQUEENSFERRY: 8
+  HENLEY-IN-ARDEN: 8
+  PORTLAND: 8
+  SPILSBY: 8
+  LINGFIELD: 8
+  BUNGAY: 8
+  MARYPORT: 8
+  ALRESFORD: 8
+  YARM: 8
+  FERRYHILL: 8
+  WELWYN: 8
+  YATELEY: 8
+  DROMORE: 7
+  SOUTHMINSTER: 7
+  LLANSANTFFRAID: 7
+  HOLT: 7
+  YARMOUTH: 7
+  NEWNHAM: 7
+  GREATMISSENDEN: 7
+  BRUTON: 7
+  PADSTOW: 7
+  NAIRN: 7
+  NORTHBERWICK: 7
+  WELBLEY: 7
+  LAMPETER: 7
+  PICKERING: 7
+  SEAFORD: 7
+  CRAVENARMS: 7
+  TRANENT: 7
+  RUTHIN: 7
+  BONESS: 7
+  OBAN: 7
+  SOUTHOCKENDON: 7
+  LONGFIELD: 7
+  BERKELEY: 7
+  MABLETHORPE: 7
+  COTTINGHAM: 7
+  CONWY: 7
+  LOSTWITHIEL: 6
+  CLEETHORPES: 6
+  STASAPH: 6
+  BARGOED: 6
+  PITLOCHRY: 6
+  WHYTELEAFE: 6
+  HALESWORTH: 6
+  LONGNIDDRY: 6
+  WATCHET: 6
+  CASTLEWELLAN: 6
+  CHURCHSTRETTON: 6
+  VENTNOR: 6
+  BROCKENHURST: 6
+  BURFORD: 6
+  LLANON: 6
+  CASTLECARY: 6
+  MARTOCK: 6
+  NEWMILNS: 6
+  BUDLEIGHSALTERTON: 6
+  ISLEOFBUTE: 6
+  ANNAN: 6
+  LLANDRINDODWELLS: 6
+  HYTHE: 6
+  SWANSCOMBE: 6
+  FOWEY: 6
+  BUCKLEY: 6
+  BROADSTONE: 6
+  CROMER: 6
+  BAKEWELL: 6
+  KIRKWALL: 6
+  CROOK: 6
+  PRESTEIGNE: 6
+  LOCHGILPHEAD: 6
+  LECHLADE: 6
+  ORKNEY: 6
+  DALRY: 6
+  NARBERTH: 6
+  BARTON-UPON-HUMBER: 6
+  DUMBARTON: 6
+  SAXMUNDHAM: 6
+  CALLANDER: 6
+  WHITLAND: 6
+  CAMELFORD: 6
+  AUCHTERARDER: 6
+  SNODLAND: 6
+  ROMNEYMARSH: 6
+  BURNTISLAND: 6
+  SOUTHWELL: 6
+  WIGTON: 6
+  FITZROVIA: 6
+  LYNDHURST: 6
+  EASTKILBRIDE: 5
+  PORTSTEWART: 5
+  LIGHTWATER: 5
+  KIRKNEWTON: 5
+  COWDENBEATH: 5
+  ARLESEY: 5
+  KENLEY: 5
+  COLYTON: 5
+  LINLITHGOW: 5
+  TEMPLECOMBE: 5
+  STOCKSFIELD: 5
+  WINKLEIGH: 5
+  NEWCASTLETON: 5
+  GUNNISLAKE: 5
+  ILFRACOMBE: 5
+  FAIRFORD: 5
+  DONAGHADEE: 5
+  WOODSTOCK: 5
+  KIRKCUDBRIGHT: 5
+  KIRKLISTON: 5
+  BARMOUTH: 5
+  SANQUHAR: 5
+  BEAUMARIS: 5
+  ARROCHAR: 5
+  ISLEOFMULL: 5
+  ABERLOUR: 5
+  APPLEBY-IN-WESTMORLAND: 5
+  BUCKFASTLEIGH: 5
+  BUCKNELL: 5
+  INSCH: 5
+  LLANDYSUL: 5
+  LLANDOVERY: 5
+  STUDLEY: 5
+  GODSTONE: 5
+  ABERGELE: 5
+  IBSTOCK: 5
+  WINSCOMBE: 5
+  MELROSE: 5
+  BRAMPTON: 5
+  LLANDUDNOJUNCTION: 5
+  LONGHOPE: 5
+  WESTLINTON: 5
+  LEISTON: 5
+  WINGATE: 5
+  BURNHAM-ON-SEA: 5
+  JEDBURGH: 5
+  ALSTON: 5
+  DALBEATTIE: 4
+  GRETNA: 4
+  BEDLINGTON: 4
+  KIRKBYSTEPHEN: 4
+  MARKFIELD: 4
+  BONCATH: 4
+  KINGUSSIE: 4
+  MUCHHADHAM: 4
+  SWAFFHAM: 4
+  MUIROFORD: 4
+  CRUMLIN: 4
+  CAMPBELTOWN: 4
+  BEAMINSTER: 4
+  BANWELL: 4
+  WESTCALDER: 4
+  ANSTRUTHER: 4
+  TREORCHY: 4
+  DUNBAR: 4
+  WARLINGHAM: 4
+  WHITEHAVEN: 4
+  PORTHMADOG: 4
+  MOFFAT: 4
+  EYEMOUTH: 4
+  SETTLE: 4
+  MACHYNLLETH: 4
+  MAUCHLINE: 4
+  TREHARRIS: 4
+  MACDUFF: 4
+  PEACEHAVEN: 4
+  HINDHEAD: 4
+  EASTCOWES: 4
+  KILWINNING: 4
+  CHESHUNT: 4
+  KNIGHTON: 4
+  MAYFIELD: 4
+  TENBY: 4
+  MAYBOLE: 4
+  PENCADER: 4
+  BARROW-UPON-HUMBER: 4
+  SALCOMBE: 4
+  BALLYCASTLE: 4
+  CRYMYCH: 4
+  ETCHINGHAM: 4
+  COCKBURNSPATH: 4
+  LAUDER: 4
+  LLANYMYNECH: 4
+  STEVENSTON: 4
+  ISLEOFISLAY: 4
+  LLANGADOG: 4
+  LLANFAIRPWLLGWYNGYLL: 4
+  TREGARON: 4
+  CHIPPINGCAMPDEN: 4
+  KNEBWORTH: 4
+  EGREMONT: 4
+  FRINTON-ON-SEA: 4
+  ACHARACLE: 4
+  CASTLEDERG: 4
+  YELVERTON: 4
+  FRESHWATER: 3
+  PENRHYNDEUDRAETH: 3
+  LEEDS: 3
+  WESTYORKSHIRE: 3
+  LLANGEFNI: 3
+  LLANTWITMAJOR: 3
+  SHANKLIN: 3
+  LAIRG: 3
+  TILLICOULTRY: 3
+  TINTAGEL: 3
+  LLANIDLOES: 3
+  NEWROMNEY: 3
+  SEASCALE: 3
+  HORNSEA: 3
+  ISLEOFSKYE: 3
+  BISHOPTON: 3
+  PENICUIK: 3
+  WEDMORE: 3
+  STRATHAVEN: 3
+  GAERWEN: 3
+  BOATOFGARTEN: 3
+  HENLOW: 3
+  MALPAS: 3
+  BIRCHINGTON: 3
+  WOOLER: 3
+  CORNHILL-ON-TWEED: 3
+  MENAIBRIDGE: 3
+  AUGHNACLOY: 3
+  CRICKHOWELL: 3
+  ISLESOFSCILLY: 3
+  EASTBOLDON: 3
+  BEAULY: 3
+  STBEES: 3
+  EARLSTON: 3
+  GORDON: 3
+  MUCHWENLOCK: 3
+  CHAPELTOWN: 3
+  CRICCIETH: 3
+  ABERAERON: 3
+  CARNOUSTIE: 3
+  LOSSIEMOUTH: 3
+  ELSTREE: 3
+  SHERINGHAM: 3
+  TARBERT: 3
+  WOODHALLSPA: 3
+  LANGHOLM: 3
+  COLDSTREAM: 3
+  CHINNOR: 3
+  BAMPTON: 3
+  CAIRNDOW: 3
+  ROWLANDSCASTLE: 3
+  GRANTOWN-ON-SPEY: 3
+  BALA: 3
+  MONTGOMERY: 3
+  ALNESS: 3
+  AMBLESIDE: 3
+  FISHGUARD: 3
+  BETCHWORTH: 3
+  WINDLESHAM: 2
+  STAGNES: 2
+  STRETFORD: 2
+  TOTLANDBAY: 2
+  FERNDALE: 2
+  WESTKILBRIDE: 2
+  LLANGOLLEN: 2
+  NEWCASTLE-UNDER-LYME: 2
+  NORTHTAWTON: 2
+  GOSFORTH: 2
+  WINCHELSEA: 2
+  CARLUDDON: 
+  TRIMDONSTATION: 2
+  THORNHILL: 2
+  CLOGHER: 2
+  PRESTATYN: 2
+  TWEMLOW: 2
+  TAYPORT: 2
+  GALSTON: 2
+  BEDALE: 2
+  NEWCASTLEUNDERLYME: 2
+  CHULMLEIGH: 2
+  KEYNSHAM: 2
+  LYDBROOK: 2
+  ULCEBY: 2
+  AUGHER: 2
+  WARRENPOINT: 2
+  KILMACOLM: 2
+  YFELINHELI: 2
+  BROSELEY: 2
+  DARVEL: 2
+  SAINTAUSTELL: 2
+  SOUTHBRENT: 2
+  PORTRUSH: 2
+  FOCHABERS: 2
+  DEANSTREET: 2
+  STROMNESS: 2
+  SEDBERGH: 2
+  HERIOT: 2
+  LYMEREGIS: 2
+  PATHHEAD: 2
+  DOLGELLAU: 2
+  BALLATER: 2
+  London: 2
+  CORBRIDGE: 2
+  GAYDON: 2
+  BUTTERTON: 2
+  BEMBRIDGE: 2
+  NEWPORT-ON-TAY: 2
+  STOKE-SUB-HAMDON: 2
+  MELTONCONSTABLE: 2
+  DENNY: 2
+  CROMARTY: 2
+  DUNOON: 2
+  TYWYN: 2
+  RAWTENSTALL: 2
+  ALVA: 2
+  TAYNUILT: 2
+  ISLEOFARRAN: 2
+  AMLWCH: 2
+  TONYPANDY: 2
+  SKELMORLIE: 2
+  KNOTTINGLEY: 2
+  PORTISAAC: 2
+  LLANFYLLIN: 2
+  FORTROSE: 2
+  HARTFIELD: 2
+  ROWLANDSGILL: 2
+  STRATHCARRON: 2
+  PRESTONPANS: 2
+  DELABOLE: 2
+  INNERLEITHEN: 2
+  RYTON: 2
+  HALTON: 2
+  DAWLISH: 2
+  CENTRALMILTONKEYNES: 2
+  WHITEFIELD: 2
+  INVERGORDON: 2
+  PORTREE: 2
+  CULLOMPTON: 1
+  WILLAND: 1
+  WHITELEY: 1
+  FAREHAM: 1
+  CHALFONTSTPETER: 1
+  DOUNE: 1
+  CONISTON: 1
+  SALTCOATS: 1
+  BLAENAVON: 1
+  DUNBLANE: 1
+  CHANDLERSFORD: 1
+  PLYMPTON: 1
+  EASTLINTON: 1
+  AIRPORTEXECUTIVEPARK: 1
+  KINGSTONBAGPUIZE: 1
+  TIDWORTH: 1
+  BELFORD: 1
+  ISLEOFIONA: 1
+  ST.JOHNSWOOD: 1
+  MONTACUTE: 1
+  CALEDON: 1
+  CATTERICKGARRISON: 1
+  LLANBEDR: 1
+  TANSLEY: 1
+  KILLIN: 1
+  CHANDLERSFORD: 1
+  HONITION: 1
+  BADMINTON: 1
+  LLANDINAM: 1
+  BISHOPSCASTLE: 1
+  MEASHAM: 1
+  HALTWHISTLE: 1
+  ISLEOFCOLONSAY: 1
+  DINASPOWYS: 1
+  RHAYADER: 1
+  BARNETBY: 1
+  WINSLOW: 1
+  DALTON-IN-FURNESS: 1
+  BRORA: 1
+  WESTGATE-ON-SEA: 1
+  LLANFAIRFECHAN: 1
+  STRATFORD-UPON-AVON: 
+  ENGLEFIELDGREEN: 1
+  WARWICK: 
+  LOCHGELLY: 1
+  BEETHAM: 1
+  PENMAENMAWR: 1
+  CRIANLARICH: 1
+  BURWELL: 1
+  CLARBESTONROAD: 1
+  STRATFORD: 1
+  LOCHEARNHEAD: 1
+  CALSTOCK: 1
+  BOWSTREET: 1
+  NORTHHARROW: 1
+  WALTONUPONTHAMES: 1
+  GOODWICK: 1
+  VIRGINIAWATER: 1
+  CHESHIRE: 1
+  LLANFYRNACH: 1
+  HAWARDEN: 1
+  CEREDIGION: 1
+  READINGTHEALE: 1
+  CURRIE: 1
+  BROMPTONONSWALE: 1
+  LASSWADE: 1
+  DYFFRYNARDUDWY: 1
+  INVERARAY: 1
+  BUILTHWELLS: 1
+  NRLUTTERWORTH: 1
+  BALERNO: 1
+  ASTLEY: 1
+  CLYNDERWEN: 1
+  ABBOTTSANN: 1
+  BRODICK: 1
+  ULLAPOOL: 1
+  MERSEYSIDE: 1
+  LIFTON: 1
+  BALLAUGH: 1
+  NEWMILLS: 1
+  HIGHPEAK: 1
+  DORNOCH: 1
+  ASKAM-IN-FURNESS: 1
+  ARDGAY: 1
+  STOKEPOGES: 1
+  ISLEOFBARRA: 1
+  ARDROSSAN: 1
+  KIDWELLY: 1
+  MEIFOD: 1
+  PEMBERTON: 1
+  WIGAN: 1
+  TUNBRIDGE: 1
+  UMBERLEIGH: 1
+  BURRYPORT: 1
+  ISLEOFSOUTHUIST: 1
+  BRETBY: 1
+  BARKINGSIDE: 1
+  PETERCULTER: 1
+  BISHOPSTON: 1
+  BRISTOL: 1
+  WIMBLEDON: 1
+  HARLECH: 1
+  PANGBOURNE: 1
+  NEWTOWNABBEY: 1
+  CO.ANTRIM: 1
+  MENSTRIE: 1
+  DALMALLY: 1
+  BRYNTEG: 1
+  BEAWORTHY: 1
+  WOMBWELL: 1
+  NEWQUAY: 1
+  WELLS-NEXT-THE-SEA: 1
+  ABOYNE: 1
+  TYCROES: 1
+  NETHYBRIDGE: 1
+  DRYBROOK: 1
+  GREATCHESTERFORD: 1
+  ISLEOFHARRIS: 1
+  SANDRINGHAM: 1
+  DUNSFORD: 1
+  HAWES: 1
+  MILLTIMBER: 1
+  ISLEOFNORTHUIST: 1
+  STEVENSON: 1
+  CLEVELAND: 1
+  QUEENBOROUGH: 1
+  CHOPPINGTON: 1
+  LLANWRTYDWELLS: 1
+  HALKIRK: 1
+  MINDRUM: 1
+  BYAIRDRIE: 1
+  WALKERBURN: 1
+  LYNTON: 1
+  MUNLOCHY: 1
+  HEATONCHAPEL: 1
+  STOCKPORT: 1
+  MALLUSK: 1
+  HUNSTANTON: 1
+  MILNTHORPE: 1
+  GARVE: 1
+  TULLIBODY: 1
+  HAWKHURST: 1
+  STRATHDON: 1
+  MAESTEG: 1
+  PEVENSEY: 1
+  GRANGEMOUTH.: 1
+  KILGETTY: 1
+  BURNBANK: 1
+  DYMOCK: 1
+  PARKROYAL: 1
+  LLANRWST: 1
+  BLAENAUFFESTINIOG: 1
+  MALLAIG: 1
+  SHIRLEY: 1
+  HOUSTON: 1
+  LADDINGFORD: 1
+  KYLE: 1
+  HAMPTONWICK: 1
+  CLEATORMOOR: 1
+  AVIEMORE: 1
+  KEELE: 1
+  TRINITYWAY: 1
+  DUBLIN: 1
+  HILLINGDON: 1
+  SURREY: 1
+  PAMPISFORD: 1
+  TYN-Y-GONGL: 1
+  GOLBORNE: 1
+  DUNKELD: 1
+  CLACKMANNAN: 1
+  155-175GLASGOWROAD: 1
+  BURES: 1
+  NEWBAILEYSTREET: 1
+  HOLMROOK: 1
+  SAUNDERSFOOT: 1
+  WITHERNSEA: 1
+  KEMPSTON: 1
+  FLITWICK: 1
+  LITTLEGADDESDEN: 1
+  DULVERTON: 1
+  KINCARDINE-ON-FORTH: 1
+  TURNFORD: 1
+  DOLLAR: 1
+  BLAKENEY: 1
+  NEWTONMORE: 1
+  VALLEY: 1
+
+
+
+
+BizDescEncoding:
+  Accounting/auditing/bookkeeping:  0
+  Adjustment/collection services:  1
+  Administrative general economic programs:  2
+  Administrative public health programs:  3
+  Administrative social/manpower programs:  4
+  Advertising agency:  5
+  Advertising representative:  6
+  Advertising services:  7
+  Airport/airport services:  8
+  Aluminum foundry:  9
+  Amusement device operator:  10
+  Amusement park:  11
+  Amusement/recreation services:  12
+  Animal services:  13
+  Animal specialties farm:  14
+  Anthracite mining:  15
+  Architectural services:  16
+  Automotive repair:  17
+  Automotive services:  18
+  Bank holding company:  19
+  Barber shop:  20
+  Beauty shop:  21
+  Blast furnace-steel works:  22
+  Boatbuilding/repairing:  23
+  Book printing:  24
+  Bookbinding/related work:  25
+  Books-publishing/printing:  26
+  Botanical/zoological garden:  27
+  Bridge/tunnel construction:  28
+  Building equipment installation:  29
+  Building maintenance services:  30
+  Bus charter service-nonlocal:  31
+  Bus terminal/service facility:  32
+  Business association:  33
+  Business consulting services:  34
+  Business services:  35
+  Carpentry contractor:  36
+  Cash grains farm:  37
+  Chemical/fertilizer mineral mining:  38
+  Child day care services:  39
+  Citrus fruit grove:  40
+  Closed-end investment office:  41
+  Coating/engraving service:  42
+  College/university:  43
+  Combination utilities:  44
+  Commercial art/graphic design:  45
+  Commercial nonphysical research:  46
+  Commercial photography:  47
+  Commercial physical research:  48
+  Commercial printing:  49
+  Communication services:  50
+  Computer facility management:  51
+  Computer maintenance/repair:  52
+  Computer related services:  53
+  Concrete contractor:  54
+  Construction sand/gravel:  55
+  Copper rolling/drawing:  56
+  Cotton broadwoven fabric mill:  57
+  Courier service:  58
+  Court:  59
+  Covered food crops farm:  60
+  Credit reporting services:  61
+  Crop preparation for market:  62
+  Crops-planting/protecting:  63
+  Crude petroleum/natural gas production:  64
+  Crushed/broken stone:  65
+  Custom computer programing:  66
+  Custom computer programming:  67
+  Dairy farm:  68
+  Data processing/preparation:  69
+  Dental laboratory:  70
+  Dentist's office:  71
+  Detective/armored car services:  72
+  Direct retail sales:  73
+  Disinfecting/pest services:  74
+  Drinking place:  75
+  Drywall/insulating contractor:  76
+  Dwelling operator:  77
+  Eating place:  78
+  Electric services:  79
+  Electrical contractor:  80
+  Elementary/secondary school:  81
+  Employment agency:  82
+  Engineering services:  83
+  Entertainer/entertainment group:  84
+  Equipment rental/leasing:  85
+  Excavation contractor:  86
+  Executive office:  87
+  Farm labor contractor:  88
+  Farm management services:  89
+  Federal credit agency:  90
+  Federal reserve bank:  91
+  Federal savings institution:  92
+  Field crop farm:  93
+  Finishing plant:  94
+  Fire protection:  95
+  Fish hatchery/preserve:  96
+  Floor laying contractor:  97
+  Forestry services:  98
+  Freight transportation arrangement:  99
+  Fruit tree orchard:  100
+  Fruit/nut farm:  101
+  Funeral service/crematory:  102
+  Gas production/distribution:  103
+  Gas transmission/distribution:  104
+  Gasoline service station:  105
+  General animal farm:  106
+  General auto repair:  107
+  General crop farm:  108
+  General government:  109
+  General hospital:  110
+  General livestock farm:  111
+  General warehouse/storage:  112
+  Glass/glazing contractor:  113
+  Grape vineyard:  114
+  Gravure commercial printing:  115
+  Gray/ductile iron foundry:  116
+  Hardwood dimension/floor mill:  117
+  Health practitioner's office:  118
+  Health/allied services:  119
+  Heavy construction:  120
+  Heavy construction equipment rental:  121
+  Help supply services:  122
+  Highway/street construction:  123
+  Hog farm or feedlot:  124
+  Holding company:  125
+  Horses/other equines farm:  126
+  Hotel/motel operation:  127
+  Hunter/trapper/game management:  128
+  Individual/family services:  129
+  Insurance agent/broker:  130
+  Insurance carrier:  131
+  International affairs:  132
+  Investment advisory service:  133
+  Investor:  134
+  Iron ore mining:  135
+  Job training/related services:  136
+  Knit outerwear mill:  137
+  Knit underwear mill:  138
+  Knitting mill:  139
+  Labor organization:  140
+  Landscape services:  141
+  Laundry/garment services:  142
+  Lawn/garden services:  143
+  Leather tanning/finishing:  144
+  Legal services office:  145
+  Legislative body:  146
+  Library:  147
+  Life insurance carrier:  148
+  Lithographic commercial printing:  149
+  Local passenger transportation:  150
+  Local trucking operator:  151
+  Local trucking-with storage:  152
+  Local/suburban transportation:  153
+  Logging:  154
+  Malleable iron foundry:  155
+  Management consulting services:  156
+  Management services:  157
+  Marine cargo handler:  158
+  Marine products catching:  159
+  Masonry/stone contractor:  160
+  Meat packing plant:  161
+  Medical doctor's office:  162
+  Membership organization:  163
+  Membership sport/recreation club:  164
+  Metal ore mining:  165
+  Metals service center:  166
+  Mfg abrasive products:  167
+  Mfg adhesives/sealants:  168
+  Mfg agricultural chemicals:  169
+  Mfg air/gas compressors:  170
+  Mfg aircraft:  171
+  Mfg apparel/accessories:  172
+  Mfg bags-uncoated paper:  173
+  Mfg biological products:  174
+  Mfg blowers/fans:  175
+  Mfg bolts/screws/rivets:  176
+  Mfg bottled/canned soft drinks:  177
+  Mfg bread/related products:  178
+  Mfg brick/structural tile:  179
+  Mfg brooms/brushes:  180
+  Mfg candy/confectionery:  181
+  Mfg canned fruits/vegetables:  182
+  Mfg canned specialties:  183
+  Mfg canned/cured fish/seafood:  184
+  Mfg canvas/related products:  185
+  Mfg carpets/rugs:  186
+  Mfg cellulosic manmade fibers:  187
+  Mfg ceramic wall/floor tile:  188
+  Mfg cereal breakfast food:  189
+  Mfg chemical preparations:  190
+  Mfg chewing/smoking tobacco:  191
+  Mfg chocolate/cocoa products:  192
+  Mfg clay refractories:  193
+  Mfg cold-rolled steel shapes:  194
+  Mfg communications equipment:  195
+  Mfg computer peripheral equipment:  196
+  Mfg concrete products:  197
+  Mfg conductive wiring devices:  198
+  Mfg construction machinery:  199
+  Mfg converted paper products:  200
+  Mfg cookies/crackers:  201
+  Mfg cordage/twine:  202
+  Mfg corrugated/solid fiber boxes:  203
+  Mfg costume jewelry:  204
+  Mfg creamery butter:  205
+  Mfg cut stone/products:  206
+  Mfg cutlery:  207
+  Mfg distilled/blended liquor:  208
+  Mfg dog/cat food:  209
+  Mfg dry/evaporated dairy products:  210
+  Mfg edible fats/oils:  211
+  Mfg electric housewares/fans:  212
+  Mfg electrical equipment/supplies:  213
+  Mfg electronic components:  214
+  Mfg electronic computers:  215
+  Mfg elevators/escalators:  216
+  Mfg engine electrical equipment:  217
+  Mfg explosives:  218
+  Mfg fabricated plate work:  219
+  Mfg fabricated rubber products:  220
+  Mfg farm machinery/equipment:  221
+  Mfg fasteners/buttons/pins:  222
+  Mfg flat glass:  223
+  Mfg flour/grain mill products:  224
+  Mfg fluid milk:  225
+  Mfg fluid power pumps/motors:  226
+  Mfg food preparations:  227
+  Mfg food products machinery:  228
+  Mfg footwear-except rubber:  229
+  Mfg fur goods:  230
+  Mfg furniture/fixtures:  231
+  Mfg games/toys:  232
+  Mfg general industrial machinery:  233
+  Mfg girl/youth dresses/blouses:  234
+  Mfg glass containers:  235
+  Mfg gypsum products:  236
+  Mfg hand/edge tools:  237
+  Mfg hardware:  238
+  Mfg hardwood veneer/plywood:  239
+  Mfg heating equipment-nonelectric:  240
+  Mfg home audio/video equipment:  241
+  Mfg home refrigerators/freezers:  242
+  Mfg hosiery:  243
+  Mfg household appliances:  244
+  Mfg household furnishings:  245
+  Mfg household furniture:  246
+  Mfg hydraulic cement:  247
+  Mfg ice cream/frozen desert:  248
+  Mfg industrial furnaces/ovens:  249
+  Mfg industrial gases:  250
+  Mfg industrial inorganic chemicals:  251
+  Mfg industrial machinery:  252
+  Mfg industrial organic chemicals:  253
+  Mfg industrial valves:  254
+  Mfg inorganic pigments:  255
+  Mfg internal combustion engines:  256
+  Mfg lab apparatus/furniture:  257
+  Mfg leather clothing:  258
+  Mfg lighting equipment:  259
+  Mfg lime products:  260
+  Mfg lubricating oils/greases:  261
+  Mfg luggage:  262
+  Mfg macaroni/spaghetti:  263
+  Mfg machine tools-cutting:  264
+  Mfg machine tools-forming:  265
+  Mfg magnetic/optical recording media:  266
+  Mfg malt:  267
+  Mfg malt beverages:  268
+  Mfg marking devices:  269
+  Mfg mattresses/bedsprings:  270
+  Mfg measuring/controlling devices:  271
+  Mfg medicinal/botanical products:  272
+  Mfg men's/boy's clothing:  273
+  Mfg men's/boy's underwear:  274
+  Mfg men's/boy's work clothing:  275
+  Mfg metal cans:  276
+  Mfg metal doors/sash/trim:  277
+  Mfg metal stampings:  278
+  Mfg metalworking machinery:  279
+  Mfg millwork:  280
+  Mfg mining machinery:  281
+  Mfg misc fabricated metal products:  282
+  Mfg misc fabricated wire products:  283
+  Mfg misc industry machinery:  284
+  Mfg misc products:  285
+  Mfg misc structural metalwork:  286
+  Mfg mobile homes:  287
+  Mfg motor vehicle parts/accessories:  288
+  Mfg motor vehicle/car bodies:  289
+  Mfg motorcycles/bicycles:  290
+  Mfg motors/generators:  291
+  Mfg musical instruments:  292
+  Mfg nitrogenous fertilizers:  293
+  Mfg nonconductive wiring devices:  294
+  Mfg nonmetallic mineral products:  295
+  Mfg nonwoven fabrics:  296
+  Mfg office furniture-nonwood:  297
+  Mfg office machines:  298
+  Mfg oil/gas field machinery:  299
+  Mfg optical instruments/lenses:  300
+  Mfg ordnance/accessories:  301
+  Mfg paints/allied products:  302
+  Mfg paper industrial machinery:  303
+  Mfg partitions/fixtures-nonwood:  304
+  Mfg petroleum/coal products:  305
+  Mfg pharmaceutical preparations:  306
+  Mfg photographic equipment/supplies:  307
+  Mfg plastic materials/resins:  308
+  Mfg plastic products:  309
+  Mfg polish/sanitation goods:  310
+  Mfg potato chips/snacks:  311
+  Mfg pottery products:  312
+  Mfg power transmission equipment:  313
+  Mfg power-driven handtools:  314
+  Mfg precious metal jewelry:  315
+  Mfg prefabricated wood buildings:  316
+  Mfg prepared feeds:  317
+  Mfg prepared meats:  318
+  Mfg prerecorded records/tapes:  319
+  Mfg pressed/blown glass:  320
+  Mfg primary batteries:  321
+  Mfg printed circuit boards:  322
+  Mfg printing ink:  323
+  Mfg process control instruments:  324
+  Mfg products-purchased glass:  325
+  Mfg public building furniture:  326
+  Mfg pumps/pumping equipment:  327
+  Mfg railroad equipment:  328
+  Mfg raw cane sugar:  329
+  Mfg ready-mixed concrete:  330
+  Mfg refrigeration/heating equipment:  331
+  Mfg roasted coffee:  332
+  Mfg rolling mill machinery:  333
+  Mfg sanitary paper products:  334
+  Mfg scales/balances-nonlaboratory:  335
+  Mfg service industry machinery:  336
+  Mfg sheet metalwork:  337
+  Mfg signs/advertising specialties:  338
+  Mfg soap/other detergents:  339
+  Mfg sporting/athletic goods:  340
+  Mfg stationery products:  341
+  Mfg steel pipe/tubes:  342
+  Mfg steel wire/related products:  343
+  Mfg surgical appliances/supplies:  344
+  Mfg surgical/medical instruments:  345
+  Mfg switchgear/switchboards:  346
+  Mfg synthetic rubber:  347
+  Mfg telephone/telegraph apparatus:  348
+  Mfg textile goods:  349
+  Mfg textile machinery:  350
+  Mfg tires/inner tubes:  351
+  Mfg toilet preparations:  352
+  Mfg transportation equipment:  353
+  Mfg truck trailers:  354
+  Mfg vitreous china tableware:  355
+  Mfg vitreous plumbing fixtures:  356
+  Mfg watches/clocks/parts:  357
+  Mfg wines/brandy/spirits:  358
+  Mfg women's/misses' blouses:  359
+  Mfg women's/misses' outerwear:  360
+  Mfg women's/youth underwear:  361
+  Mfg wood containers:  362
+  Mfg wood household furniture:  363
+  Mfg wood office furniture:  364
+  Mfg wood products:  365
+  Mfg x-ray apparatus/tubes:  366
+  Misc business credit institutions:  367
+  Misc personal services:  368
+  Misc publishing:  369
+  Mortgage banker/correspondent:  370
+  Motion picture services:  371
+  Motion picture theater:  372
+  Motion picture/tape distribution:  373
+  Motion picture/video production:  374
+  Museum/art gallery:  375
+  National commercial bank:  376
+  National security:  377
+  Natural gas distribution:  378
+  News syndicate:  379
+  Newspapers-publishing/printing:  380
+  Nonclassified establishment:  381
+  Nonferrous metal foundry:  382
+  Nonferrous wiredrawing/insulating:  383
+  Nonmetallic mineral mining:  384
+  Nonmetallic mineral services:  385
+  Nonprofit trust management:  386
+  Nonresidential building operator:  387
+  Nonresidential construction:  388
+  Nonscheduled air transportation:  389
+  Nursing/personal care:  390
+  Oil/gas field services:  391
+  Open-end management investment:  392
+  Operative builders:  393
+  Ornamental nursery:  394
+  Packing/crating service:  395
+  Painting/paper hanging contractor:  396
+  Paper mill:  397
+  Passenger car rental:  398
+  Patent owner/lessor:  399
+  Pension/health/welfare fund:  400
+  Periodicals-publishing/printing:  401
+  Personal credit institution:  402
+  Petroleum bulk station:  403
+  Petroleum refiner:  404
+  Photo portrait studio:  405
+  Photocopying services:  406
+  Photofinishing laboratory:  407
+  Physical fitness facility:  408
+  Pipeline operation:  409
+  Platemaking services:  410
+  Plating/polishing service:  411
+  Plumbing/heating/air cond contractor:  412
+  Police protection:  413
+  Political organization:  414
+  Poultry processing:  415
+  Poultry/poultry egg farm:  416
+  Prepackaged software services:  417
+  Primary aluminum producer:  418
+  Primary nonferrous metal producer:  419
+  Private household:  420
+  Professional organization:  421
+  Public relations services:  422
+  Pulp mill:  423
+  Racing or track operation:  424
+  Radio broadcast station:  425
+  Radio/television repair:  426
+  Radiotelephone communication:  427
+  Railroad line-haul operator:  428
+  Real estate agent/manager:  429
+  Real estate investment trust:  430
+  Real property lessor:  431
+  Refrigeration service/repair:  432
+  Refuse system:  433
+  Religious organization:  434
+  Repair services:  435
+  Residential care services:  436
+  Residential construction:  437
+  Ret alcoholic beverages:  438
+  Ret auto/home supplies:  439
+  Ret books:  440
+  Ret computers/software:  441
+  Ret draperies/upholstery:  442
+  Ret drugs/sundries:  443
+  Ret family clothing:  444
+  Ret floor covering:  445
+  Ret florist:  446
+  Ret fruits/vegetables:  447
+  Ret furniture:  448
+  Ret gifts/novelties:  449
+  Ret groceries:  450
+  Ret hardware:  451
+  Ret hobbies/toys/games:  452
+  Ret household appliances:  453
+  Ret jewelry:  454
+  Ret luggage/leather goods:  455
+  Ret lumber/building materials:  456
+  Ret mail-order house:  457
+  Ret meat/fish:  458
+  Ret men's/boy's clothing:  459
+  Ret misc apparel/accessories:  460
+  Ret misc foods:  461
+  Ret misc general merchandise:  462
+  Ret misc homefurnishings:  463
+  Ret misc merchandise:  464
+  Ret misc vehicles:  465
+  Ret mobile homes:  466
+  Ret motorcycles:  467
+  Ret musical instruments:  468
+  Ret new/used automobiles:  469
+  Ret news dealer/newsstand:  470
+  Ret nursery/garden supplies:  471
+  Ret optical goods:  472
+  Ret radio/tv/electronics:  473
+  Ret records/cd's/tapes:  474
+  Ret sewing supplies/fabrics:  475
+  Ret shoes:  476
+  Ret sporting goods/bicycles:  477
+  Ret tobacco products:  478
+  Ret used automobiles:  479
+  Ret used merchandise:  480
+  Ret women's accessories/specialties:  481
+  Ret women's clothing:  482
+  Retail bakery:  483
+  Reupholstery/furniture repair:  484
+  Rice farm:  485
+  Roofing/siding contractor:  486
+  Rooming/boarding house:  487
+  Sanitary services:  488
+  Sawmill/planing mill:  489
+  Scheduled air transportation:  490
+  School/educational services:  491
+  Secondary nonferrous metal producer:  492
+  Secretarial/court reporting:  493
+  Security broker/dealer:  494
+  Security systems services:  495
+  Security/commodity exchange:  496
+  Security/commodity service:  497
+  Services-misc:  498
+  Sewerage system:  499
+  Sheep/goat farm:  500
+  Shipbuilding/repairing:  501
+  Shoe repair/shoeshine parlor:  502
+  Short-term business credit institution:  503
+  Single-family house construction:  504
+  Skilled nursing care facility:  505
+  Social services:  506
+  Special warehouse/storage:  507
+  Steam/air-conditioning supply:  508
+  Steel foundry:  509
+  Structural metal fabrication:  510
+  Subdivider/developer:  511
+  Sugarcane/sugar beet farm:  512
+  Surety insurance carrier:  513
+  Surveying services:  514
+  Tax return preparation services:  515
+  Taxicab service:  516
+  Telephone communications:  517
+  Television station:  518
+  Testing laboratory:  519
+  Theatrical producers/services:  520
+  Tile/marble contractor:  521
+  Timber tract operation:  522
+  Title abstract office:  523
+  Tour operator:  524
+  Trade contractor:  525
+  Trailer park/campsites:  526
+  Transportation services:  527
+  Travel agency:  528
+  Truck rental/leasing:  529
+  Trucking operator-nonlocal:  530
+  Trust management:  531
+  U.S. Postal Service:  532
+  Vegetable/melon farm:  533
+  Vending machine operator:  534
+  Veterinary services:  535
+  Vocational school:  536
+  Watch/clock/jewelry repair:  537
+  Water freight transportation:  538
+  Water passenger transportation:  539
+  Water supply service:  540
+  Water transport services:  541
+  Water/sewer/utility construction:  542
+  Wet corn milling:  543
+  Whol appliances/tv/radio:  544
+  Whol auto parts/supplies:  545
+  Whol autos/motor vehicles:  546
+  Whol chemicals/products:  547
+  Whol coal/minerals/ores:  548
+  Whol computers/peripherals:  549
+  Whol confectionery:  550
+  Whol construction materials:  551
+  Whol construction/mining equipment:  552
+  Whol dairy products:  553
+  Whol drugs/sundries:  554
+  Whol durable goods:  555
+  Whol electrical equipment:  556
+  Whol electronic parts/equipment:  557
+  Whol farm product raw materials:  558
+  Whol farm supplies:  559
+  Whol farm/garden machinery:  560
+  Whol flowers/florist supplies:  561
+  Whol footwear:  562
+  Whol fruits/vegetables:  563
+  Whol furniture:  564
+  Whol general groceries:  565
+  Whol grain/field beans:  566
+  Whol groceries:  567
+  Whol homefurnishings:  568
+  Whol industrial equipment:  569
+  Whol industrial supplies:  570
+  Whol industrial/service paper:  571
+  Whol jewelry/precious stones:  572
+  Whol livestock:  573
+  Whol lumber/plywood/millwork:  574
+  Whol meats/products:  575
+  Whol men's/boy's clothing:  576
+  Whol nondurable goods:  577
+  Whol office equipment:  578
+  Whol petroleum products:  579
+  Whol piece goods/notions:  580
+  Whol plumbing equipment/supplies:  581
+  Whol poultry/products:  582
+  Whol scrap/waste material:  583
+  Whol service establishment equipment:  584
+  Whol tires/tubes:  585
+  Whol tobacco products:  586
+  Whol transportation equipment:  587
+  Whol wine/distilled beverages:  588
+  Whol women's/child's clothing:  589
+  Wrecking/demolition contractor:  590
+  Yarn spinning mill:  591

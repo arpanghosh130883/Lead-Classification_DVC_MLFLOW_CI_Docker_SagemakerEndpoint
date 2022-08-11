@@ -1,0 +1,16 @@
+### dependency
+tqdm
+mlflow
+pandas
+numpy
+sklearn
+PyYAML
+sklearn
+shap
+xgboost==1.5.0
+sklearn_evaluation
+dvc
+
+### local packages -
+-e . # << uncomment this to install from setup.py
+

@@ -1,0 +1,23 @@
+name: LeadClassification
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "python src/main.py"
+  
+  stage_01:
+    parameters:
+      config: {type: str, default: configs/config.yaml}
+    command: "python src/stage_01_dataprepare.py --config={config}"
+
+  stage_02:
+    parameters:
+      config: {type: str, default: configs/config.yaml}
+      #params: {type: str, default: params.yaml}
+    command: "python src/stage_02_modeltraining.py --config={config}"  #--params=={params}"
+
+  stage_03:
+    parameters:
+      config: {type: str, default: configs/config.yaml}
+    command: "python src/stage_03_modelevaluation.py --config={config}"
