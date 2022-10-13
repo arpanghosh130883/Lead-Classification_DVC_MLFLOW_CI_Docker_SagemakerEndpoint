@@ -8,14 +8,14 @@ ModelTraining:
 
 
 BestModelParameters:
-  subsample:  1.0
+  subsample: 1.0
   silent: False
   n_estimators: 100
   max_depth: 6
-  learning_rate: 0.001
-  gamma: 1.0
-  colsample_bytree: 0.7
-  colsample_bylevel: 0.4
+  learning_rate: 0.300000012
+  gamma: 0.0
+  colsample_bytree: 1.0
+  colsample_bylevel: 1.0
   threshold: 0.5051
 
 

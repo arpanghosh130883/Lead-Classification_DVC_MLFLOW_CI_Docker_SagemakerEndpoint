@@ -3,13 +3,24 @@
 artifacts:
   artifacts_directory: artifacts
 
-  preprocessed_data_dir: preprocessed_data
-  preprocessed_data_file: preprocessed_data.csv
+  processed_data_dir: processed_data
+  processed_data_file: processed_data.csv
 
   input_features_dir: input_features
   input_features_file: input_features.csv
 
   train_val_test_data_directory: train_val_test_data
+
+  x_train_data_file: x_train.csv
+  y_train_data_file: y_train.csv
+  x_val_data_file: x_val.csv
+  y_val_data_file: y_val.csv
+  x_test_data_file: x_test.csv
+  y_test_data_file: y_test.csv
+
+  scaled_train_dir: scaled_xtrain
+  xtrain_scaled_file: scaled_xtrain.csv
+
   train_data_file: train.csv
   val_data_file: val.csv
   test_data_file: test.csv
@@ -17,10 +28,17 @@ artifacts:
   model_directory: model
   model_name: xgb_classifier.pkl
 
+  scaler_directory: scaler
+  scaler_name: standardscaler.pkl
+
 source_data:
   data_directory: data 
   data_file: raw_data.csv
   new_data_file: x.csv
+
+  version: v3
+  path: dvc_data/raw_data.csv
+  repo: C:/Users/Aishwarya.Chandra/SelfDevelopment/mlflow_dvc_trial
 
 
 model:

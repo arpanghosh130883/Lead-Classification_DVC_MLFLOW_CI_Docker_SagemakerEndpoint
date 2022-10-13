@@ -21,3 +21,25 @@ entry_points:
     parameters:
       config: {type: str, default: configs/config.yaml}
     command: "python src/stage_03_modelevaluation.py --config={config}"
+
+  stage_04a:
+    parameters:
+      config: {type: str, default: configs/config.yaml}
+    command: "python -m pytest src/stage_04a_unittesting.py"
+
+  stage_04b:
+    parameters:
+      config: {type: str, default: configs/config.yaml}
+    command: "python -m pytest src/stage_04b_integrationtesting.py"
+
+  stage_05:
+    parameters:
+      config: {type: str, default: configs/config.yaml}
+    command: "python src/stage_05_black_formatting.py --config={config}"
+
+  stage_06:
+    parameters:
+      config: {type: str, default: configs/config.yaml}
+    command: "python src/stage_06_vulture_stdcoding.py --config={config}"
+
+    

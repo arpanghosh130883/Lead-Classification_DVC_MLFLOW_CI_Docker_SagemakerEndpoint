@@ -1,0 +1,12 @@
+*
+!src
+!requirements.txt
+!setup.py
+!README.md
+!MLproject
+!conda.yaml
+!configs
+!params.yaml
+!logs
+!data
+!dvc_data
